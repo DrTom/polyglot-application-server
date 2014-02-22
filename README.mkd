@@ -1,0 +1,23 @@
+
+The Application Server for Cider-CI
+===================================
+
+This repository combines well defined overlays of Torquebox and Immutant to
+JBoss/Wildfly. This repository exists for testing purposes and because it is
+quite hard to find two versions of Torquebox and Immutant that play well
+together. 
+
+
+Setup
+-----
+
+
+0. download and unpack torquebox into the main directory
+
+0. download and unpack immutant somewhere
+
+0. overlay: change to the overlay directory and `lein overlay ../torquebox-3.0.2 ../tmp/immutant-1.1.0-slim/`
+
+0. rename `torquebox-x.x.x` to `server`
+
+0. make sure that empty dirs end up in git: `find server -type d -depth -empty -print0 | xargs -0 -I {} touch {}/.gitkeep`
