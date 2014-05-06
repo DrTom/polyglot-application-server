@@ -1,6 +1,5 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
 	<title>Eclipse Public License</title><meta name="author" content="Mike Milinkovich, Nov. 21, 2005" />
 	<meta property="og:description" content="Eclipse is probably best known as a Java IDE, but it is more: it is an IDE framework, a tools framework, an open source project, a community, an eco-system, and a foundation." />
 <meta property="og:image" content="https://www.eclipse.org/eclipse.org-common/themes/Nova/images/eclipse.png" />
@@ -18,12 +17,11 @@
 	<!--[if IE 6]> 	<link rel="stylesheet" type="text/css" href="/eclipse.org-common/themes/Nova/css/ie6_style.css" media="screen"/> <![endif]-->
 	<!-- Dependencies -->
 	<!-- Source File -->
-
-	</head>
+</head>
 <body>
 	<div id="novaWrapper">		<div id="clearHeader">
 			<div id="logo">
-									 <img src="/eclipse.org-common/themes/Nova/images/eclipse.png" alt="Eclipse.org"/>
+									 <img src="/eclipse.org-common/themes/Nova/images/eclipse-800x426.png" alt="Eclipse.org" width="171" height="91"/>
 							</div>
 <div id="otherSites"><div id="sites"><ul id="sitesUL">
 <li><a href='//marketplace.eclipse.org'><img alt="Eclipse Marketplace" src="//dev.eclipse.org/custom_icons/marketplace.png"/>&nbsp;<span>Eclipse Marketplace</span></a></li>
@@ -55,17 +53,7 @@
 		<div id="novaContent" class="faux"><br id="faux-br" style="clear:both;height:1em;"/>
 		<div id="leftcol">
 <ul id="leftnav">
-<li class="separator"><a class="separator" href="/org/">
-				About Us<img src="/eclipse.org-common/themes/Nova/images/separator.png" alt="navigation image"/></a></li>
-<li><a href="/org/foundation/reports/annual_report.php" target="_self">Annual Report</a></li>
-<li><a href="/org/foundation/" target="_self">Foundation</a></li>
-<li><a href="/org/documents/" target="_self">Governance</a></li>
-<li><a href="/legal/" target="_self">Legal Resources</a></li>
-<li><a href="/org/foundation/contact.php" target="_self">Contact Us</a></li>
-</ul>
-
-</div>
-
+<li class="separator"><a class="separator" href="/org/">About Us<img src="/eclipse.org-common/themes/Nova/images/separator.png" alt="navigation image"/></a></li><li><a href="/org/foundation/reports/annual_report.php" target="_self">Annual Report</a></li><li><a href="/org/foundation/" target="_self">Foundation</a></li><li><a href="/org/documents/" target="_self">Governance</a></li><li><a href="/legal/" target="_self">Legal Resources</a></li><li><a href="/org/foundation/contact.php" target="_self">Contact Us</a></li></ul></div>
 	<div id="midcolumn">
 		<h1>Eclipse Public License  - v 1.0</h1>
 
@@ -324,6 +312,6 @@ its rights to a jury trial in any resulting litigation. </p><br/>
 <li><a href="/legal/copyright.php">Copyright Agent</a></li>
 <li><a href="/legal/">Legal</a></li>
 <li><a href="/org/foundation/contact.php">Contact Us</a></li></ul>
-			<span id="copyright">Copyright &copy; 2013 The Eclipse Foundation. All Rights Reserved.</span>
+			<span id="copyright">Copyright &copy; 2014 The Eclipse Foundation. All Rights Reserved.</span>
 		</div>
 	</div> </body></html>

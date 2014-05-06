@@ -28,7 +28,7 @@
     </properties>
 
     <resources>
-        <resource-root path="jboss-as-clustering-infinispan-7.2.x.slim.incremental.9.jar"/>
+        <resource-root path="jboss-as-clustering-infinispan-7.2.x.slim.incremental.16.jar"/>
         <!-- Insert resources here -->
     </resources>
 
@@ -41,6 +41,7 @@
         <module name="org.infinispan.cachestore.remote"/>
         <module name="org.infinispan.client.hotrod" optional="true"/>
         <module name="org.jboss.as.clustering.api"/>
+        <module name="org.infinispan.commons"/>
         <module name="org.jboss.as.clustering.common"/>
         <module name="org.jboss.as.clustering.impl" services="import"/>
         <module name="org.jboss.as.clustering.jgroups" optional="true"/>

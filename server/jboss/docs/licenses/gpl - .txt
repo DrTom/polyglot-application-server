@@ -13,15 +13,13 @@
 
 <!-- end of server/header.html -->
 
-<!-- Parent-Version: 1.75 -->
+<!-- Parent-Version: 1.76 -->
 
 <title>The GNU Operating System</title>
 
 <meta http-equiv="Keywords" content="GNU, FSF, Free Software Foundation, Linux, Emacs, GCC, Unix, Free Software, Libre Software, Operating System, GNU Kernel, GNU Hurd" />
 <meta http-equiv="Description" content="Since 1983, developing the free Unix style operating system GNU, so that computer users can have the freedom to share and improve the software they use." />
 <link rel="alternate" title="Planet GNU" href="http://planet.gnu.org/rss20.xml" type="application/rss+xml" />
-<link rel="alternate" title="What's New" href="http://www.gnu.org/rss/whatsnew.rss" type="application/rss+xml" />
-<link rel="alternate" title="New Free Software" href="http://www.gnu.org/rss/quagga.rss" type="application/rss+xml" />
 
 <!-- begin translist file -->
 
@@ -44,7 +42,7 @@
 <body>
 <!-- start of server/body-include-1.html -->
 
-<div id="toplinks"><a href="#content">Skip to body</a> |
+<div id="toplinks"><a href="#content">Skip to main text</a> |
 <span class="netscape4">
 <a href="#navigation">Skip to navigation</a> |</span>
 <a href="/accessibility/">Accessibility</a></div>
@@ -57,7 +55,6 @@
 <span dir="ltr"><a lang="de" hreflang="de" href="/home.de.html">Deutsch</a>&nbsp;[de]</span>&nbsp;&nbsp;
 <span dir="ltr"><a lang="el" hreflang="el" href="/home.el.html">ελληνικά</a>&nbsp;[el]</span>&nbsp;&nbsp;
 <span dir="ltr"><a lang="es" hreflang="es" href="/home.es.html">español</a>&nbsp;[es]</span>&nbsp;&nbsp;
-<span dir="ltr"><a lang="fa" hreflang="fa" href="/home.fa.html">فارسی</a>&nbsp;[fa]</span>&nbsp;&nbsp;
 <span dir="ltr"><a lang="fr" hreflang="fr" href="/home.fr.html">français</a>&nbsp;[fr]</span>&nbsp;&nbsp;
 <span dir="ltr"><a lang="hr" hreflang="hr" href="/home.hr.html">hrvatski</a>&nbsp;[hr]</span>&nbsp;&nbsp;
 <span dir="ltr"><a lang="it" hreflang="it" href="/home.it.html">italiano</a>&nbsp;[it]</span>&nbsp;&nbsp;
@@ -67,6 +64,7 @@
 <span dir="ltr"><a lang="pl" hreflang="pl" href="/home.pl.html">polski</a>&nbsp;[pl]</span>&nbsp;&nbsp;
 <span dir="ltr"><a lang="ru" hreflang="ru" href="/home.ru.html">русский</a>&nbsp;[ru]</span>&nbsp;&nbsp;
 <span dir="ltr"><a lang="sq" hreflang="sq" href="/home.sq.html">Shqip</a>&nbsp;[sq]</span>&nbsp;&nbsp;
+<span dir="ltr"><a lang="uk" hreflang="uk" href="/home.uk.html">українська</a>&nbsp;[uk]</span>&nbsp;&nbsp;
 <span dir="ltr"><a lang="zh-cn" hreflang="zh-cn" href="/home.zh-cn.html">简体中文</a>&nbsp;[zh-cn]</span>&nbsp;&nbsp;
 </p>
 </div>
@@ -109,7 +107,7 @@
  <div class="inner">
 
   <div id="searcher">
-   <form method="get" action="http://www.gnu.org/cgi-bin/estseek.cgi">
+   <form method="get" action="/cgi-bin/estseek.cgi">
     <div><label class="netscape4" for="phrase">Search:</label>
     <input name="phrase" id="phrase" type="text" size="18" accesskey="s"
            value="Why GNU/Linux?" onfocus="this.value=''" />
@@ -130,15 +128,6 @@
 
  </div><!-- /inner -->
 </div><!--  /navigation -->
-
-<div class="yui-g" style="margin-top: 10px;">
-<!-- GNUN: localize URL /graphics/banner-gradient.gif -->
-<p class="c"><a href="/ghm/2013/paris/">
-<img src="/graphics/banner-gradient.gif"
- alt="GNU Hackers Meeting Paris -- August 22-25" height="98" /></a>
-</p>
-</div>
-
 <!-- end of server/body-include-2 -->
 
 
@@ -158,16 +147,16 @@ is <a href="/philosophy/free-sw.html">free software</a>&mdash;it
 respects your freedom.  You can install
 <a href="/distros/free-distros.html">
 versions of GNU</a> (more precisely, GNU/Linux systems) which are
-entirely free software.</p>
+entirely free software. <a href="/provide.html">What we provide</a>.</p>
 
-<p class="c"><a href="/distros/screenshot.html"><img
+<p class="c" style="margin: 0em"><a href="/distros/screenshot.html"><img
    src="/graphics/t-desktop-4-small.jpg" alt="Screenshot of GNU"
    /></a></p>
 
 <p>The <a href="/gnu/gnu.html">GNU Project</a> was launched in 1984 to
 develop the GNU system.  The name &ldquo;GNU&rdquo; is a recursive
 acronym for &ldquo;GNU's Not
-Unix!&rdquo;.  <a href="/pronunciation/pronunciation.html"> "GNU" is
+Unix!&rdquo;.  <a href="/pronunciation/pronunciation.html">&ldquo;GNU&rdquo; is
 pronounced <em>g'noo</em></a>, as one syllable, like saying "grew" but
 replacing the <em>r</em> with <em>n</em>.</p>
 
@@ -179,15 +168,14 @@ kernel.</p>
 <p><a href="/software/hurd/hurd.html">The Hurd, GNU's own kernel</a>,
 is some way from being ready for daily use.  Thus, GNU is typically
 used today with a kernel called Linux.  This combination is
-the <a href="/gnu/linux-and-gnu.html"> <strong>GNU/Linux operating
+the <a href="/gnu/linux-and-gnu.html"><strong>GNU/Linux operating
 system</strong></a>.  GNU/Linux is used by millions, though
-many <a href="/gnu/gnu-linux-faq.html"> call it "Linux" by
+many <a href="/gnu/gnu-linux-faq.html">call it &ldquo;Linux&rdquo; by
 mistake</a>.</p>
 
-<p><a href="/provide.html">What we provide</a>.</p>
 
 </div><!-- class="yui-u first" -->
-	    
+
       <div class="yui-u">
 
       <p class="button c large"><a
@@ -197,39 +185,709 @@ mistake</a>.</p>
 
 <h4 id="Flashes"><a href="http://planet.gnu.org/">Planet GNU</a> <a href="http://planet.gnu.org/rss20.xml"><img src="/feed-icon-10x10.png" alt="RSS Feed" /></a></h4>
 
-<!--
-   rms SEZ:
-   DO NOT MAKE THIS MORE THAN 5 LINES, AND DO NOT PUT
-   MORE THAN 2 ITEMS HERE.
--->
-
-<!-- Autogenerated File by planetrss.pl http://web.cvs.savannah.gnu.org/viewvc/www/server/source/planetrss/?root=www -->
-<p><a href='https://www.fsf.org/blogs/community/gnewsense-3-0-released'>gNewSense 3.0 released</a>:  The latest release of gNewSense is out, bringing with it a spate of new features and bug fixes... <a href='http://www.fsf.org/blogs/community/gnewsense-3-0-released'>more</a></p>
-<p><a href='https://www.fsf.org/blogs/community/watch-the-obama-surveillance-press-conference-using-free-software'>Watch the Obama surveillance press conference using free software</a>:  Looking to watch President Obama's press conference about PRISM and government surveillance using free software?... <a href='https://www.fsf.org/blogs/community/watch-the-obama-surveillance-press-conference-using-free-software'>more</a></p>
-<p><a href='https://www.fsf.org/blogs/community/first-batch-of-videos-from-libreplanet-2013-published'>First batch of videos from LibrePlanet 2013 published!</a>: The first round of videos from LibrePlanet 2013 is now available for streaming and downloading. LibrePlanet is an annual conference... <a href='https://www.fsf.org/blogs/community/first-batch-of-videos-from-libreplanet-2013-published'>more</a></p>
-
+<!-- Autogenerated by planetrss.pl 1.7 -->
+<p><a href='http://nickclifton.livejournal.com/15809.html'>
+March 2014 GNU Toolchain update</a>:
+Hi Guys, It has been a fairly quite month in GNU toolchain land this month. The GCC mainline is getting very close to being ready to branch for the 4.9 release...
+<a href='http://nickclifton.livejournal.com/15809.html'>more</a></p>
+<p><a href='http://www.gnu.org/software/hurd/news/2014-03-16-gsoc.html'>
+2014-03-16-gsoc</a>:
+The Google Summer of Code 2014 is on! If you're a student, consider
+applying for a GNU Hurd project -- details to be found on our
+GSoC and project ideas pages.</p>
+<p><a href='http://savannah.gnu.org/forum/forum.php?forum_id=7907'>
+Release 1.1.4 is imminent - Please test</a>:
+Spillover Appending over-length notes spill into next bar. Works for rests too. Optional – set a preference for old behavior. Shortcuts Cheat Sheet Cur...
+<a href='http://savannah.gnu.org/forum/forum.php?forum_id=7907'>more</a></p>
 
 
 <p>For more news, see <a href="http://planet.gnu.org/">Planet GNU</a>
 and the list of <a href="/software/recent-releases.html">recent GNU
 releases</a>.</p>
 
-<h4>GNU Guile</h4>
-<p><a href="http://www.gnu.org/software/guile/">GNU Guile</a> is the
-official extension language for the GNU Operating System. Version 2.0
-was released February 16, 2011 with a 
-<a href="http://www.gnu.org/software/guile/news.html">wealth of new 
-features.</a> Its compiler infrastructure, libraries, and dynamic 
-programming environment make it a great language to write applications in. 
-<a href="http://www.gnu.org/software/guile/community.html">Join the
-community now!</a></p>
+<!-- home-pkgselect.html begins -->
+<!-- Automatically generated by select-blurbs.awk on Tue Mar 18 11:33:39 EDT 2014 -->
+<!-- Next selections are going to be:
+ lsh octave dap aspell gcl gnumeric solfege acm psychosynth clisp
+ autoconf gettext myserver teseq vera uucp garpd
+-->
 
-<h4>GNUstep</h4>
+<!-- home-pkgselect.html ends -->
 
-<p><a href="http://www.gnustep.org/">GNUstep</a> is a fully-functional
-object-oriented development environment. We need developers to write and
-port applications to GNUstep so that we can make it a great experience
-for users.</p>
+<!-- File generated by womb/gnumaint/gm Wed Mar 19 12:53:24 PDT 2014 -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4 id="spell">
+  <a href="/software/spell/">Spell</a></h4><p>
+Spell is a command-line spell-checking program.  It reads through
+a text input and prints each misspelled word on a line of its own.
+It is implemented as a wrapper for GNU aspell or ispell.
+<small>(<a href="/manual/manual.html#spell">doc</a>)</small></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- End file generated by womb/gnumaint/gm Wed Mar 19 12:53:24 PDT 2014 -->
+
+
+<p><small><a href="/manual/blurbs.html">Short descriptions for all GNU
+packages.</a></small></p>
 
 </div><!-- class="emph-box" -->
 </div><!-- class="yui-u" -->
@@ -323,18 +981,18 @@ Forms.</p>
 href="/server/takeaction.html#unmaint">unmaintained GNU
 package</a>?</strong>
 <span class="gnun-split"></span>
-  <a href="/software/dap/">dap</a>,
+  <a href="/software/gleem/">gleem</a>,
   <a href="/software/gnatsweb/">gnatsweb</a>,
   <a href="/software/gnukart/">gnukart</a>,
+  <a href="/software/groff/">groff</a>,
   <a href="/software/halifax/">halifax</a>,
+  <a href="/software/indent/">indent</a>,
   <a href="/software/jwhois/">jwhois</a>,
-  <a href="/software/libmatheval/">libmatheval</a>,
   <a href="/software/metahtml/">metahtml</a>,
   <a href="/software/orgadoc/">orgadoc</a>,
   <a href="/software/polyxmass/">polyxmass</a>,
   <a href="/software/superopt/">superopt</a>,
-  <a href="/software/teximpatient/">teximpatient</a>,
-  <a href="/software/uucp/">uucp</a><span class="gnun-split"></span>,
+  <a href="/software/teximpatient/">teximpatient</a><span class="gnun-split"></span>,
 are all <a href="/server/takeaction.html#unmaint">looking for
 maintainers</a>.  Also, these packages are looking for co-maintainers:
 <span class="gnun-split"></span>
@@ -342,7 +1000,7 @@ maintainers</a>.  Also, these packages are looking for co-maintainers:
   <a href="/software/gnuae/">gnuae</a>,
   <a href="/software/metaexchange/">metaexchange</a>,
   <a href="/software/powerguru/">powerguru</a><span class="gnun-split"></span>.
-See the package web pages for more information.</p> 
+See the package web pages for more information.</p>
 
 </div><!-- class="yui-g highlight-para" -->
 
@@ -398,13 +1056,13 @@ or <a href="http://flattr.com/thing/313733/gnuproject-on-Flattr">via Flattr</a>.
      Please make sure the copyright date is consistent with the
      document.  For web pages, it is ok to list just the latest year the
      document was modified, or published.
-     
+
      If you wish to list earlier years, that is ok too.
      Either "2001, 2002, 2003" or "2001-2003" are ok for specifying
      years, as long as each year in the range is in fact a copyrightable
      year, i.e., a year in which the document was published (including
      being publicly visible on the web or in a revision control system).
-     
+
      There is more detail about copyright years in the GNU Maintainers
      Information document, www.gnu.org/prep/maintain. -->
 
@@ -422,13 +1080,17 @@ href="http://creativecommons.org/licenses/by-nd/3.0/us/">Creative
 Commons Attribution-NoDerivs 3.0 United States License</a>.</p>
 
 <!-- start of server/bottom-notes.html -->
+<div class="unprintable">
 <p><a href="http://www.fsf.org/about/dmca-notice">Copyright Infringement Notification</a></p>
+
+
+</div>
 <!-- end of server/bottom-notes.html -->
 
 
-<p>Updated:
+<p></p><p class="unprintable">Updated:
 <!-- timestamp start -->
-$Date: 2013/08/12 16:17:52 $
+$Date: 2014/03/14 04:04:32 $
 <!-- timestamp end -->
 </p>
 </div>

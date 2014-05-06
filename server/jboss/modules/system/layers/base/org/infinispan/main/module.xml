@@ -22,7 +22,7 @@
   -->
 <module xmlns="urn:jboss:module:1.1" name="org.infinispan">
     <resources>
-        <resource-root path="infinispan-core-5.3.0.Final.jar"/>
+        <resource-root path="infinispan-core-6.0.0.Final.jar"/>
         <!-- Insert resources here -->
     </resources>
 
@@ -30,11 +30,10 @@
         <module name="javax.api"/>
         <module name="javax.transaction.api"/>
         <module name="net.jcip"/>
-        <module name="org.jboss.jandex"/>
         <module name="org.jboss.logging"/>
+        <module name="org.infinispan.commons" export="true"/>
         <module name="org.jboss.marshalling"/>
-        <module name="org.jboss.marshalling.river"/>
-        <module name="org.jboss.staxmapper"/>
+        <module name="org.jboss.marshalling.river" services="import"/>
         <module name="org.jgroups"/>
         <module name="sun.jdk"/>
     </dependencies>

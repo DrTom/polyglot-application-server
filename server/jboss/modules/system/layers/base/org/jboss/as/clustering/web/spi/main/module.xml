@@ -28,7 +28,7 @@
     </properties>
 
     <resources>
-        <resource-root path="jboss-as-clustering-web-spi-7.2.x.slim.incremental.9.jar"/>
+        <resource-root path="jboss-as-clustering-web-spi-7.2.x.slim.incremental.16.jar"/>
         <!-- Insert resources here -->
     </resources>
 

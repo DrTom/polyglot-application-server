@@ -26,14 +26,18 @@
     </properties>
 
     <resources>
-        <resource-root path="infinispan-client-hotrod-5.3.0.Final.jar"/>
+        <resource-root path="infinispan-client-hotrod-6.0.0.Final.jar"/>
+        <resource-root path="infinispan-query-dsl-6.0.0.Final.jar"/>
+        <resource-root path="infinispan-remote-query-client-6.0.0.Final.jar"/>
+        <resource-root path="protostream-1.0.0.CR1.jar"/>
         <!-- Insert resources here -->
     </resources>
 
     <dependencies>
         <module name="javax.api"/>
+        <module name="com.google.protobuf"/>
         <module name="org.apache.commons.pool"/>
-        <module name="org.infinispan"/>
+        <module name="org.infinispan.commons"/>
         <module name="org.jboss.logging"/>
     </dependencies>
 </module>

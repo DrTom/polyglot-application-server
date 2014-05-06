@@ -3,7 +3,6 @@
     <extensions>
         <extension module='org.jboss.as.clustering.infinispan'/>
         <extension module='org.jboss.as.clustering.jgroups'/>
-        <extension module='org.jboss.as.configadmin'/>
         <extension module='org.jboss.as.connector'/>
         <extension module='org.jboss.as.ee'/>
         <extension module='org.jboss.as.jmx'/>
@@ -49,7 +48,7 @@
         <profile name='ha'>
             <subsystem xmlns='urn:jboss:domain:logging:1.2'>
                 <console-handler name='CONSOLE'>
-                    <level name='INFO'/>
+                    <level name='${jboss.logging.level:INFO}'/>
                     <formatter>
                         <pattern-formatter pattern='%K{level}%d{HH:mm:ss,SSS} %-5p [%c] (%t) %s%E%n'/>
                     </formatter>
@@ -84,7 +83,7 @@
                     <level name='WARN'/>
                 </logger>
                 <root-logger>
-                    <level name='INFO'/>
+                    <level name='${jboss.logging.level:INFO}'/>
                     <handlers>
                         <handler name='CONSOLE'/>
                         <handler name='FILE'/>
@@ -94,7 +93,6 @@
                     <level name='ERROR'/>
                 </logger>
             </subsystem>
-            <subsystem xmlns='urn:jboss:domain:configadmin:1.0'/>
             <subsystem xmlns='urn:jboss:domain:ee:1.1'>
                 <spec-descriptor-property-replacement>false</spec-descriptor-property-replacement>
                 <jboss-descriptor-property-replacement>true</jboss-descriptor-property-replacement>
@@ -110,13 +108,11 @@
                     <transport lock-timeout='60000'/>
                     <replicated-cache name='repl' mode='ASYNC' batching='true' start='EAGER'>
                         <eviction strategy='LRU' max-entries='10000'/>
-                        <expiration max-idle='100000'/>
                         <file-store passivation='false' purge='false'/>
                     </replicated-cache>
                     <replicated-cache name='sso' mode='SYNC' batching='true'/>
                     <distributed-cache name='dist' mode='ASYNC' batching='true' l1-lifespan='0'>
                         <eviction strategy='LRU' max-entries='10000'/>
-                        <expiration max-idle='100000'/>
                         <file-store passivation='false' purge='false'/>
                     </distributed-cache>
                 </cache-container>
@@ -280,6 +276,7 @@
             <subsystem xmlns='urn:jboss:domain:logging:1.2'>
                 <console-handler name='CONSOLE'>
                     <level name='INFO'/>
+                    <level name='${jboss.logging.level:INFO}'/>
                     <formatter>
                         <pattern-formatter pattern='%K{level}%d{HH:mm:ss,SSS} %-5p [%c] (%t) %s%E%n'/>
                     </formatter>
@@ -315,6 +312,7 @@
                 </logger>
                 <root-logger>
                     <level name='INFO'/>
+                    <level name='${jboss.logging.level:INFO}'/>
                     <handlers>
                         <handler name='CONSOLE'/>
                         <handler name='FILE'/>
@@ -324,7 +322,6 @@
                     <level name='ERROR'/>
                 </logger>
             </subsystem>
-            <subsystem xmlns='urn:jboss:domain:configadmin:1.0'/>
             <subsystem xmlns='urn:jboss:domain:ee:1.1'>
                 <spec-descriptor-property-replacement>false</spec-descriptor-property-replacement>
                 <jboss-descriptor-property-replacement>true</jboss-descriptor-property-replacement>
@@ -511,6 +508,7 @@
             <subsystem xmlns='urn:jboss:domain:logging:1.2'>
                 <console-handler name='CONSOLE'>
                     <level name='INFO'/>
+                    <level name='${jboss.logging.level:INFO}'/>
                     <formatter>
                         <pattern-formatter pattern='%K{level}%d{HH:mm:ss,SSS} %-5p [%c] (%t) %s%E%n'/>
                     </formatter>
@@ -546,6 +544,7 @@
                 </logger>
                 <root-logger>
                     <level name='INFO'/>
+                    <level name='${jboss.logging.level:INFO}'/>
                     <handlers>
                         <handler name='CONSOLE'/>
                         <handler name='FILE'/>
@@ -555,7 +554,6 @@
                     <level name='ERROR'/>
                 </logger>
             </subsystem>
-            <subsystem xmlns='urn:jboss:domain:configadmin:1.0'/>
             <subsystem xmlns='urn:jboss:domain:ee:1.1'>
                 <spec-descriptor-property-replacement>false</spec-descriptor-property-replacement>
                 <jboss-descriptor-property-replacement>true</jboss-descriptor-property-replacement>
@@ -571,13 +569,11 @@
                     <transport lock-timeout='60000'/>
                     <replicated-cache name='repl' mode='ASYNC' batching='true' start='EAGER'>
                         <eviction strategy='LRU' max-entries='10000'/>
-                        <expiration max-idle='100000'/>
                         <file-store passivation='false' purge='false'/>
                     </replicated-cache>
                     <replicated-cache name='sso' mode='SYNC' batching='true'/>
                     <distributed-cache name='dist' mode='ASYNC' batching='true' l1-lifespan='0'>
                         <eviction strategy='LRU' max-entries='10000'/>
-                        <expiration max-idle='100000'/>
                         <file-store passivation='false' purge='false'/>
                     </distributed-cache>
                 </cache-container>
@@ -746,6 +742,7 @@
                             <entries>
                                 <entry name='java:jboss/exported/jms/RemoteConnectionFactory'/>
                             </entries>
+                            <consumer-window-size>1</consumer-window-size>
                         </connection-factory>
                         <pooled-connection-factory name='hornetq-ra'>
                             <transaction mode='xa'/>

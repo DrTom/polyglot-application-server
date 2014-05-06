@@ -73,7 +73,7 @@
     <profile>
         <subsystem xmlns='urn:jboss:domain:logging:1.2'>
             <console-handler name='CONSOLE'>
-                <level name='INFO'/>
+                <level name='${jboss.logging.level:INFO}'/>
                 <formatter>
                     <pattern-formatter pattern='%K{level}%d{HH:mm:ss,SSS} %-5p [%c] (%t) %s%E%n'/>
                 </formatter>
@@ -86,14 +86,23 @@
                 <suffix value='.yyyy-MM-dd'/>
                 <append value='true'/>
             </periodic-rotating-file-handler>
-            <logger category='immutant.cache'>
-                <level name='DEBUG'/>
+            <logger category='org.apache'>
+                <level name='WARN'/>
             </logger>
-            <logger category='immutant.web'>
-                <level name='DEBUG'/>
+            <logger category='org.hornetq'>
+                <level name='WARN'/>
             </logger>
-            <logger category='org.jboss.as.dependency.private'>
-                <level name='ERROR'/>
+            <logger category='org.infinispan'>
+                <level name='INFO'/>
+            </logger>
+            <logger category='org.infinispan.jmx'>
+                <level name='WARN'/>
+            </logger>
+            <logger category='org.quartz'>
+                <level name='WARN'/>
+            </logger>
+            <logger category='org.xnio'>
+                <level name='WARN'/>
             </logger>
             <logger category='com.arjuna'>
                 <level name='WARN'/>
@@ -107,8 +116,59 @@
             <logger category='sun.rmi'>
                 <level name='WARN'/>
             </logger>
-            <root-logger>
+            <logger category='org.jboss.as.dependency.private'>
+                <level name='ERROR'/>
+            </logger>
+            <logger category='org.jboss.as.connector.subsystems.datasources'>
+                <level name='ERROR'/>
+            </logger>
+            <logger category='org.jboss.modules'>
+                <level name='WARN'/>
+            </logger>
+            <logger category='org.jboss.msc'>
+                <level name='WARN'/>
+            </logger>
+            <logger category='org.jboss.remoting'>
+                <level name='WARN'/>
+            </logger>
+            <logger category='org.jboss.as.security'>
+                <level name='WARN'/>
+            </logger>
+            <logger category='org.jboss.as.naming'>
+                <level name='WARN'/>
+            </logger>
+            <logger category='org.jboss.as.server'>
+                <level name='WARN'/>
+            </logger>
+            <logger category='org.jboss.as.server.deployment'>
                 <level name='INFO'/>
+            </logger>
+            <logger category='org.jboss.as.server.deployment.scanner'>
+                <level name='WARN'/>
+            </logger>
+            <logger category='org.jboss.as.remoting'>
+                <level name='WARN'/>
+            </logger>
+            <logger category='org.jboss.as.domain.http.api'>
+                <level name='ERROR'/>
+            </logger>
+            <logger category='org.jboss.as.connector.logging'>
+                <level name='WARN'/>
+            </logger>
+            <logger category='org.jboss.as.messaging'>
+                <level name='WARN'/>
+            </logger>
+            <logger category='org.jboss.as.clustering.infinispan'>
+                <level name='WARN'/>
+            </logger>
+            <logger category='org.projectodd.polyglot.cache.as'>
+                <level name='WARN'/>
+            </logger>
+            <logger category='org.jboss.web'>
+                <level name='WARN'/>
+            </logger>
+            <root-logger>
+                <level name='${jboss.logging.level:INFO}'/>
                 <handlers>
                     <handler name='CONSOLE'/>
                     <handler name='FILE'/>
@@ -136,13 +196,11 @@
                 <transport lock-timeout='60000'/>
                 <replicated-cache name='repl' mode='ASYNC' batching='true' start='EAGER'>
                     <eviction strategy='LRU' max-entries='10000'/>
-                    <expiration max-idle='100000'/>
                     <file-store passivation='false' purge='false'/>
                 </replicated-cache>
                 <replicated-cache name='sso' mode='SYNC' batching='true'/>
                 <distributed-cache name='dist' mode='ASYNC' batching='true' l1-lifespan='0'>
                     <eviction strategy='LRU' max-entries='10000'/>
-                    <expiration max-idle='100000'/>
                     <file-store passivation='false' purge='false'/>
                 </distributed-cache>
             </cache-container>

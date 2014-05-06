@@ -4,23 +4,23 @@
 
 <head profile="http://www.w3.org/1999/xhtml/vocab">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<link rel="shortcut icon" href="http://opensource.org/files/garland_favicon.png" type="image/png" />
+<script type="text/javascript">var NREUMQ=NREUMQ||[];NREUMQ.push(["mark","firstbyte",new Date().getTime()]);</script><link rel="shortcut icon" href="http://opensource.org/files/garland_favicon.png" type="image/png" />
 <link rel="shortlink" href="/node/66" />
 <link rel="canonical" href="/licenses/MIT" />
 <meta name="Generator" content="Drupal 7 (http://drupal.org)" />
   <title>The MIT License (MIT) | Open Source Initiative</title>
   <link type="text/css" rel="stylesheet" href="http://opensource.org/files/css/css_pbm0lsQQJ7A7WCCIMgxLho6mI_kBNgznNUWmTWcnfoE.css" media="all" />
-<link type="text/css" rel="stylesheet" href="http://opensource.org/files/css/css_Frms3llKkCDMuuCHUzEHGgSAc59B2At_Y3KWbmFS9k4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://opensource.org/files/css/css_SUL4nLPHzR3nTjXtabIi37KnqgcaT9eAQRNBvMXWGXs.css" media="all" />
 <link type="text/css" rel="stylesheet" href="http://opensource.org/files/css/css_2wI77kyP-rJKVpFW5M3KFcj7Cb99lZalmubKIwWwsmU.css" media="all" />
 <link type="text/css" rel="stylesheet" href="http://opensource.org/files/css/css_k3snrbsthqot7V7ccRZHS9OkCZkwBv4adtNieIVlbEU.css" media="print" />
 
 <!--[if lt IE 7]>
-<link type="text/css" rel="stylesheet" href="http://opensource.org/themes/garland/fix-ie.css?mp63bk" media="all" />
+<link type="text/css" rel="stylesheet" href="http://opensource.org/themes/garland/fix-ie.css?n291is" media="all" />
 <![endif]-->
   <script type="text/javascript" src="http://opensource.org/files/js/js_xAPl0qIk9eowy_iS9tNkCWXLUVoat94SQT48UBCFkyQ.js"></script>
 <script type="text/javascript">
 <!--//--><![CDATA[//><!--
-jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"garland","theme_token":"wkewNlUNcSSweppRSoTestUepMQ2j6mVYRzgWd3Kbdw","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/aggregator\/aggregator.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/mollom\/mollom.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"themes\/garland\/style.css":1,"themes\/garland\/print.css":1,"themes\/garland\/fix-ie.css":1}}});
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"garland","theme_token":"RBLir3ZGz1PRdmcDq8gV3-NPqk7rKTiGGVeOAS4Gl44","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/aggregator\/aggregator.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/mollom\/mollom.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"themes\/garland\/style.css":1,"themes\/garland\/print.css":1,"themes\/garland\/fix-ie.css":1}}});
 //--><!]]>
 </script>
 </head>
@@ -53,7 +53,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
   <label class="element-invisible" for="edit-search-block-form--2">Search </label>
  <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
 </div>
-<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-YcLJwn9btBgumgq5CvnS9g41QQWIZVoFe18HUXV8-jE" />
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-JGWxTNuDswn77gRaQ6oS8D6rmlVnnn6Ktv8IG3B0F_g" />
 <input type="hidden" name="form_id" value="search_block_form" />
 </div>
 </div></form>  </div>
@@ -66,8 +66,9 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
     <ul class="menu"><li class="first collapsed"><a href="/about" title="About the Open Source Initiative">About the OSI</a></li>
 <li class="collapsed"><a href="/osd" title="The actual OSD defining what constitutes an Open Source licence">The Open Source Definition</a></li>
 <li class="collapsed"><a href="/licenses">Open Source Licenses</a></li>
-<li class="collapsed"><a href="/trademark" title="Information about trademark and logo usage">Trademark and Logo Usage</a></li>
+<li class="leaf"><a href="/working_groups">Working Groups</a></li>
 <li class="leaf"><a href="/faq" title="Frequently Asked Questions about open source and about the OSI.">FAQ</a></li>
+<li class="collapsed"><a href="/trademark" title="Information about trademark and logo usage">Trademark and Logo Usage</a></li>
 <li class="collapsed"><a href="/osr-intro" title="Open Standards Requirement for Software">Open Standards</a></li>
 <li class="leaf"><a href="/osi-open-source-education" title="OSI&#039;s Open Source Education Initiative and Activities">Open Source Education</a></li>
 <li class="collapsed"><a href="/lists" title="The virtual committees where the OSI&#039;s work gets done">Mailing lists</a></li>
@@ -76,7 +77,8 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
 <li class="leaf"><a href="/members">OSI Individual Membership</a></li>
 <li class="collapsed"><a href="/affiliates" title="Home page for OSI&#039;s membership scheme for non-profits and not-for-profits">OSI Affiliate Membership</a></li>
 <li class="leaf"><a href="/contact" title="">Contact OSI</a></li>
-<li class="last leaf"><a href="/ToS" title="Rules for posting content on this site">Terms of Service</a></li>
+<li class="leaf"><a href="/ToS" title="Rules for posting content on this site">Terms of Service</a></li>
+<li class="last leaf"><a href="/sponsors">OSI Corporate Sponsors</a></li>
 </ul>  </div>
 </div>
   </div>
@@ -133,7 +135,11 @@ THE SOFTWARE.</p>
 
     
   <div class="content">
-    <!-- Creative Commons License --><a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" style="border-width: 0" src="http://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br />Opensource.org site content is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0  License</a>.<!-- /Creative Commons License -->
+    <p style="text-align:center">Help shape the future of the Open Source Initiative...<br /><a href="http://osi.xwiki.com">visit and participate in the OSI wiki</a>.
+</p>
+
+<p>
+<!-- Creative Commons License --><a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" style="border-width: 0" src="http://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br />Opensource.org site content is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0  License</a>.<!-- /Creative Commons License -->
 
 <!-- <rdf:RDF xmlns="http://web.resource.org/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
 	<Work rdf:about="">
@@ -143,6 +149,8 @@ THE SOFTWARE.</p>
 -->
 
 | <a href="../ToS">Terms of Service</a>
+
+</p>
   </div>
 </div>
 <div id="block-block-7" class="block block-block clearfix">
@@ -169,5 +177,5 @@ urchinTracker();
       
     </div> <!-- /#container -->
   </div> <!-- /#wrapper -->
-  </body>
+  <script type="text/javascript">if(!NREUMQ.f){NREUMQ.f=function(){NREUMQ.push(["load",new Date().getTime()]);var e=document.createElement("script");e.type="text/javascript";e.src=(("http:"===document.location.protocol)?"http:":"https:")+"//"+"js-agent.newrelic.com/nr-100.js";document.body.appendChild(e);if(NREUMQ.a)NREUMQ.a();};NREUMQ.a=window.onload;window.onload=NREUMQ.f;};NREUMQ.push(["nrfj","beacon-1.newrelic.com","53c69192ac","224050","b1dRZkQCXEEHAEVRXFYdZkBfTFtcAgZJFkNQQg==",0,28,new Date().getTime(),"","","","",""]);</script></body>
 </html>
